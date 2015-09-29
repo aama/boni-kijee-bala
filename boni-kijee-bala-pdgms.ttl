@@ -1,48 +1,22 @@
-
 #TTL FROM INPUT FILE:
-# ../aama-data/data/boni-kijee-bala//boni-kijee-bala-pdgms.edn
+#../aama-data/data/boni-kijee-bala/boni-kijee-bala-pdgms.edn
+
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements>.
+@prefix dcterms:    <http://purl.org/dc/terms>.
 @prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
 @prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
 @prefix bob:   <http://id.oi.uchicago.edu/aama/2013/boni-kijee-bala/> .
 
-#SCHEMATA:
+#LANG INFO:
 
 aama:Boni-kijee-bala a aamas:Language .
 aama:Boni-kijee-bala rdfs:label "Boni-kijee-bala" .
+aama:Boni-kijee-bala aamas:dataSource "Heine1982" .
+aama:Boni-kijee-bala aamas:geodemoURL "http://www.ethnologue.com/language/bob" .
+aama:Boni-kijee-bala aamas:geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine." .
 
-#SCHEMATA: status
-bob:status aamas:lang aama:Boni-kijee-bala .
-bob:Status aamas:lang aama:Boni-kijee-bala .
-bob:status rdfs:domain aamas:Term .
-bob:Status rdfs:label "status exponents" .
-bob:status rdfs:label "status" .
-bob:status rdfs:range bob:Status .
-bob:Status rdfs:subClassOf bob:MuExponent .
-bob:status rdfs:subPropertyOf bob:muProperty .
-bob:NA aamas:lang aama:Boni-kijee-bala .
-bob:NA rdf:type bob:Status .
-bob:NA rdfs:label "NA".
-
-#SCHEMATA: gender
-bob:gender aamas:lang aama:Boni-kijee-bala .
-bob:Gender aamas:lang aama:Boni-kijee-bala .
-bob:gender rdfs:domain aamas:Term .
-bob:Gender rdfs:label "gender exponents" .
-bob:gender rdfs:label "gender" .
-bob:gender rdfs:range bob:Gender .
-bob:Gender rdfs:subClassOf bob:MuExponent .
-bob:gender rdfs:subPropertyOf bob:muProperty .
-bob:Common aamas:lang aama:Boni-kijee-bala .
-bob:Common rdf:type bob:Gender .
-bob:Common rdfs:label "Common".
-bob:Fem aamas:lang aama:Boni-kijee-bala .
-bob:Fem rdf:type bob:Gender .
-bob:Fem rdfs:label "Fem".
-bob:Masc aamas:lang aama:Boni-kijee-bala .
-bob:Masc rdf:type bob:Gender .
-bob:Masc rdfs:label "Masc".
 
 #SCHEMATA: conjSubClass
 bob:conjSubClass aamas:lang aama:Boni-kijee-bala .
@@ -55,65 +29,7 @@ bob:Conjsubclass rdfs:subClassOf bob:MuExponent .
 bob:conjSubClass rdfs:subPropertyOf bob:muProperty .
 bob:S_2 aamas:lang aama:Boni-kijee-bala .
 bob:S_2 rdf:type bob:Conjsubclass .
-bob:S_2 rdfs:label "S_2".
-
-#SCHEMATA: pdgmType
-bob:pdgmType aamas:lang aama:Boni-kijee-bala .
-bob:Pdgmtype aamas:lang aama:Boni-kijee-bala .
-bob:pdgmType rdfs:domain aamas:Term .
-bob:Pdgmtype rdfs:label "pdgmType exponents" .
-bob:pdgmType rdfs:label "pdgmType" .
-bob:pdgmType rdfs:range bob:Pdgmtype .
-bob:Pdgmtype rdfs:subClassOf bob:MuExponent .
-bob:pdgmType rdfs:subPropertyOf bob:muProperty .
-bob:Partial aamas:lang aama:Boni-kijee-bala .
-bob:Partial rdf:type bob:Pdgmtype .
-bob:Partial rdfs:label "Partial".
-
-#SCHEMATA: polarity
-bob:polarity aamas:lang aama:Boni-kijee-bala .
-bob:Polarity aamas:lang aama:Boni-kijee-bala .
-bob:polarity rdfs:domain aamas:Term .
-bob:Polarity rdfs:label "polarity exponents" .
-bob:polarity rdfs:label "polarity" .
-bob:polarity rdfs:range bob:Polarity .
-bob:Polarity rdfs:subClassOf bob:MuExponent .
-bob:polarity rdfs:subPropertyOf bob:muProperty .
-bob:Affirmative aamas:lang aama:Boni-kijee-bala .
-bob:Affirmative rdf:type bob:Polarity .
-bob:Affirmative rdfs:label "Affirmative".
-bob:Negative aamas:lang aama:Boni-kijee-bala .
-bob:Negative rdf:type bob:Polarity .
-bob:Negative rdfs:label "Negative".
-
-#SCHEMATA: conjClass
-bob:conjClass aamas:lang aama:Boni-kijee-bala .
-bob:Conjclass aamas:lang aama:Boni-kijee-bala .
-bob:conjClass rdfs:domain aamas:Term .
-bob:Conjclass rdfs:label "conjClass exponents" .
-bob:conjClass rdfs:label "conjClass" .
-bob:conjClass rdfs:range bob:Conjclass .
-bob:Conjclass rdfs:subClassOf bob:MuExponent .
-bob:conjClass rdfs:subPropertyOf bob:muProperty .
-bob:Suffix aamas:lang aama:Boni-kijee-bala .
-bob:Suffix rdf:type bob:Conjclass .
-bob:Suffix rdfs:label "Suffix".
-
-#SCHEMATA: pos
-bob:pos aamas:lang aama:Boni-kijee-bala .
-bob:Pos aamas:lang aama:Boni-kijee-bala .
-bob:pos rdfs:domain aamas:Term .
-bob:Pos rdfs:label "pos exponents" .
-bob:pos rdfs:label "pos" .
-bob:pos rdfs:range bob:Pos .
-bob:Pos rdfs:subClassOf bob:MuExponent .
-bob:pos rdfs:subPropertyOf bob:muProperty .
-bob:Verb aamas:lang aama:Boni-kijee-bala .
-bob:Verb rdf:type bob:Pos .
-bob:Verb rdfs:label "Verb".
-bob:Pronoun aamas:lang aama:Boni-kijee-bala .
-bob:Pronoun rdf:type bob:Pos .
-bob:Pronoun rdfs:label "Pronoun".
+bob:S_2 rdfs:label "S_2" .
 
 #SCHEMATA: person
 bob:person aamas:lang aama:Boni-kijee-bala .
@@ -126,61 +42,13 @@ bob:Person rdfs:subClassOf bob:MuExponent .
 bob:person rdfs:subPropertyOf bob:muProperty .
 bob:Person1 aamas:lang aama:Boni-kijee-bala .
 bob:Person1 rdf:type bob:Person .
-bob:Person1 rdfs:label "Person1".
+bob:Person1 rdfs:label "Person1" .
 bob:Person2 aamas:lang aama:Boni-kijee-bala .
 bob:Person2 rdf:type bob:Person .
-bob:Person2 rdfs:label "Person2".
+bob:Person2 rdfs:label "Person2" .
 bob:Person3 aamas:lang aama:Boni-kijee-bala .
 bob:Person3 rdf:type bob:Person .
-bob:Person3 rdfs:label "Person3".
-
-#SCHEMATA: morphClass
-bob:morphClass aamas:lang aama:Boni-kijee-bala .
-bob:Morphclass aamas:lang aama:Boni-kijee-bala .
-bob:morphClass rdfs:domain aamas:Term .
-bob:Morphclass rdfs:label "morphClass exponents" .
-bob:morphClass rdfs:label "morphClass" .
-bob:morphClass rdfs:range bob:Morphclass .
-bob:Morphclass rdfs:subClassOf bob:MuExponent .
-bob:morphClass rdfs:subPropertyOf bob:muProperty .
-bob:NonFinite aamas:lang aama:Boni-kijee-bala .
-bob:NonFinite rdf:type bob:Morphclass .
-bob:NonFinite rdfs:label "NonFinite".
-
-#SCHEMATA: proClass
-bob:proClass aamas:lang aama:Boni-kijee-bala .
-bob:Proclass aamas:lang aama:Boni-kijee-bala .
-bob:proClass rdfs:domain aamas:Term .
-bob:Proclass rdfs:label "proClass exponents" .
-bob:proClass rdfs:label "proClass" .
-bob:proClass rdfs:range bob:Proclass .
-bob:Proclass rdfs:subClassOf bob:MuExponent .
-bob:proClass rdfs:subPropertyOf bob:muProperty .
-bob:To_be_added aamas:lang aama:Boni-kijee-bala .
-bob:To_be_added rdf:type bob:Proclass .
-bob:To_be_added rdfs:label "To_be_added".
-
-#SCHEMATA: tam
-bob:tam aamas:lang aama:Boni-kijee-bala .
-bob:Tam aamas:lang aama:Boni-kijee-bala .
-bob:tam rdfs:domain aamas:Term .
-bob:Tam rdfs:label "tam exponents" .
-bob:tam rdfs:label "tam" .
-bob:tam rdfs:range bob:Tam .
-bob:Tam rdfs:subClassOf bob:MuExponent .
-bob:tam rdfs:subPropertyOf bob:muProperty .
-bob:Imperative aamas:lang aama:Boni-kijee-bala .
-bob:Imperative rdf:type bob:Tam .
-bob:Imperative rdfs:label "Imperative".
-bob:Imperfect aamas:lang aama:Boni-kijee-bala .
-bob:Imperfect rdf:type bob:Tam .
-bob:Imperfect rdfs:label "Imperfect".
-bob:Infinitive aamas:lang aama:Boni-kijee-bala .
-bob:Infinitive rdf:type bob:Tam .
-bob:Infinitive rdfs:label "Infinitive".
-bob:Perfect aamas:lang aama:Boni-kijee-bala .
-bob:Perfect rdf:type bob:Tam .
-bob:Perfect rdfs:label "Perfect".
+bob:Person3 rdfs:label "Person3" .
 
 #SCHEMATA: number
 bob:number aamas:lang aama:Boni-kijee-bala .
@@ -193,14 +61,165 @@ bob:Number rdfs:subClassOf bob:MuExponent .
 bob:number rdfs:subPropertyOf bob:muProperty .
 bob:Plural aamas:lang aama:Boni-kijee-bala .
 bob:Plural rdf:type bob:Number .
-bob:Plural rdfs:label "Plural".
+bob:Plural rdfs:label "Plural" .
 bob:Singular aamas:lang aama:Boni-kijee-bala .
 bob:Singular rdf:type bob:Number .
-bob:Singular rdfs:label "Singular".
+bob:Singular rdfs:label "Singular" .
+
+#SCHEMATA: pos
+bob:pos aamas:lang aama:Boni-kijee-bala .
+bob:Pos aamas:lang aama:Boni-kijee-bala .
+bob:pos rdfs:domain aamas:Term .
+bob:Pos rdfs:label "pos exponents" .
+bob:pos rdfs:label "pos" .
+bob:pos rdfs:range bob:Pos .
+bob:Pos rdfs:subClassOf bob:MuExponent .
+bob:pos rdfs:subPropertyOf bob:muProperty .
+bob:Verb aamas:lang aama:Boni-kijee-bala .
+bob:Verb rdf:type bob:Pos .
+bob:Verb rdfs:label "Verb" .
+bob:Pronoun aamas:lang aama:Boni-kijee-bala .
+bob:Pronoun rdf:type bob:Pos .
+bob:Pronoun rdfs:label "Pronoun" .
+
+#SCHEMATA: proClass
+bob:proClass aamas:lang aama:Boni-kijee-bala .
+bob:Proclass aamas:lang aama:Boni-kijee-bala .
+bob:proClass rdfs:domain aamas:Term .
+bob:Proclass rdfs:label "proClass exponents" .
+bob:proClass rdfs:label "proClass" .
+bob:proClass rdfs:range bob:Proclass .
+bob:Proclass rdfs:subClassOf bob:MuExponent .
+bob:proClass rdfs:subPropertyOf bob:muProperty .
+bob:To_be_added aamas:lang aama:Boni-kijee-bala .
+bob:To_be_added rdf:type bob:Proclass .
+bob:To_be_added rdfs:label "To_be_added" .
+
+#SCHEMATA: conjClass
+bob:conjClass aamas:lang aama:Boni-kijee-bala .
+bob:Conjclass aamas:lang aama:Boni-kijee-bala .
+bob:conjClass rdfs:domain aamas:Term .
+bob:Conjclass rdfs:label "conjClass exponents" .
+bob:conjClass rdfs:label "conjClass" .
+bob:conjClass rdfs:range bob:Conjclass .
+bob:Conjclass rdfs:subClassOf bob:MuExponent .
+bob:conjClass rdfs:subPropertyOf bob:muProperty .
+bob:Suffix aamas:lang aama:Boni-kijee-bala .
+bob:Suffix rdf:type bob:Conjclass .
+bob:Suffix rdfs:label "Suffix" .
+
+#SCHEMATA: status
+bob:status aamas:lang aama:Boni-kijee-bala .
+bob:Status aamas:lang aama:Boni-kijee-bala .
+bob:status rdfs:domain aamas:Term .
+bob:Status rdfs:label "status exponents" .
+bob:status rdfs:label "status" .
+bob:status rdfs:range bob:Status .
+bob:Status rdfs:subClassOf bob:MuExponent .
+bob:status rdfs:subPropertyOf bob:muProperty .
+bob:NA aamas:lang aama:Boni-kijee-bala .
+bob:NA rdf:type bob:Status .
+bob:NA rdfs:label "NA" .
+
+#SCHEMATA: morphClass
+bob:morphClass aamas:lang aama:Boni-kijee-bala .
+bob:Morphclass aamas:lang aama:Boni-kijee-bala .
+bob:morphClass rdfs:domain aamas:Term .
+bob:Morphclass rdfs:label "morphClass exponents" .
+bob:morphClass rdfs:label "morphClass" .
+bob:morphClass rdfs:range bob:Morphclass .
+bob:Morphclass rdfs:subClassOf bob:MuExponent .
+bob:morphClass rdfs:subPropertyOf bob:muProperty .
+bob:NonFinite aamas:lang aama:Boni-kijee-bala .
+bob:NonFinite rdf:type bob:Morphclass .
+bob:NonFinite rdfs:label "NonFinite" .
+
+#SCHEMATA: polarity
+bob:polarity aamas:lang aama:Boni-kijee-bala .
+bob:Polarity aamas:lang aama:Boni-kijee-bala .
+bob:polarity rdfs:domain aamas:Term .
+bob:Polarity rdfs:label "polarity exponents" .
+bob:polarity rdfs:label "polarity" .
+bob:polarity rdfs:range bob:Polarity .
+bob:Polarity rdfs:subClassOf bob:MuExponent .
+bob:polarity rdfs:subPropertyOf bob:muProperty .
+bob:Affirmative aamas:lang aama:Boni-kijee-bala .
+bob:Affirmative rdf:type bob:Polarity .
+bob:Affirmative rdfs:label "Affirmative" .
+bob:Negative aamas:lang aama:Boni-kijee-bala .
+bob:Negative rdf:type bob:Polarity .
+bob:Negative rdfs:label "Negative" .
+
+#SCHEMATA: tam
+bob:tam aamas:lang aama:Boni-kijee-bala .
+bob:Tam aamas:lang aama:Boni-kijee-bala .
+bob:tam rdfs:domain aamas:Term .
+bob:Tam rdfs:label "tam exponents" .
+bob:tam rdfs:label "tam" .
+bob:tam rdfs:range bob:Tam .
+bob:Tam rdfs:subClassOf bob:MuExponent .
+bob:tam rdfs:subPropertyOf bob:muProperty .
+bob:Imperative aamas:lang aama:Boni-kijee-bala .
+bob:Imperative rdf:type bob:Tam .
+bob:Imperative rdfs:label "Imperative" .
+bob:Imperfect aamas:lang aama:Boni-kijee-bala .
+bob:Imperfect rdf:type bob:Tam .
+bob:Imperfect rdfs:label "Imperfect" .
+bob:Infinitive aamas:lang aama:Boni-kijee-bala .
+bob:Infinitive rdf:type bob:Tam .
+bob:Infinitive rdfs:label "Infinitive" .
+bob:Perfect aamas:lang aama:Boni-kijee-bala .
+bob:Perfect rdf:type bob:Tam .
+bob:Perfect rdfs:label "Perfect" .
+
+#SCHEMATA: gender
+bob:gender aamas:lang aama:Boni-kijee-bala .
+bob:Gender aamas:lang aama:Boni-kijee-bala .
+bob:gender rdfs:domain aamas:Term .
+bob:Gender rdfs:label "gender exponents" .
+bob:gender rdfs:label "gender" .
+bob:gender rdfs:range bob:Gender .
+bob:Gender rdfs:subClassOf bob:MuExponent .
+bob:gender rdfs:subPropertyOf bob:muProperty .
+bob:Common aamas:lang aama:Boni-kijee-bala .
+bob:Common rdf:type bob:Gender .
+bob:Common rdfs:label "Common" .
+bob:Fem aamas:lang aama:Boni-kijee-bala .
+bob:Fem rdf:type bob:Gender .
+bob:Fem rdfs:label "Fem" .
+bob:Masc aamas:lang aama:Boni-kijee-bala .
+bob:Masc rdf:type bob:Gender .
+bob:Masc rdfs:label "Masc" .
+
+#SCHEMATA: pdgmType
+bob:pdgmType aamas:lang aama:Boni-kijee-bala .
+bob:Pdgmtype aamas:lang aama:Boni-kijee-bala .
+bob:pdgmType rdfs:domain aamas:Term .
+bob:Pdgmtype rdfs:label "pdgmType exponents" .
+bob:pdgmType rdfs:label "pdgmType" .
+bob:pdgmType rdfs:range bob:Pdgmtype .
+bob:Pdgmtype rdfs:subClassOf bob:MuExponent .
+bob:pdgmType rdfs:subPropertyOf bob:muProperty .
+bob:Partial aamas:lang aama:Boni-kijee-bala .
+bob:Partial rdf:type bob:Pdgmtype .
+bob:Partial rdfs:label "Partial" .
+
+#PCLASSES:
+
+bob:person aamas:pclass aamas:pngClass .
+bob:number aamas:pclass aamas:pngClass .
+bob:gender aamas:pclass aamas:pngClass .
+bob:case aamas:pclass aamas:synsemClass .
+bob:derivedStem aamas:pclass aamas:synsemClass .
+bob:polarity aamas:pclass aamas:synsemClass .
+bob:pos aamas:pclass aamas:synsemClass .
+bob:proClass aamas:pclass aamas:synsemClass .
+bob:tam aamas:pclass aamas:synsemClass .
+bob:conjClass aamas:pclass aamas:inflClass .
 
 #MORPHEMES:
 
-aama:Boni-kijee-bala-TOBEADDED a aamas:Morpheme ;
+aama:Boni-kijee-bala-TOBEADDED a aamas:Muterm ;
 	aamas:lang aama:Boni-kijee-bala ;
 	rdfs:label "TOBEADDED" ;
 	rdfs:comment "[x]" ;
@@ -208,7 +227,6 @@ aama:Boni-kijee-bala-TOBEADDED a aamas:Morpheme ;
 	.
 
 #LEXEMES:
-
 aama:Boni-kijee-bala-obed a aamas:Lexeme ;
 	aamas:lang aama:Boni-kijee-bala ;
 	rdfs:label "obed" ;
@@ -216,41 +234,16 @@ aama:Boni-kijee-bala-obed a aamas:Lexeme ;
 	aamas:lemma "[y]" ;
 	.
 
-#TERMCLUSTER: boni_J-VKijee-balaSuff2AffImprtv-obed
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2NegImprtv-obed
 
-aama:IDbeb28ff0-a7ce-4c19-a024-ff636f83a0a8 a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:gender bob:Common ;
-	bob:conjSubClass bob:S_2 ;
-	bob:polarity bob:Affirmative ;
-	bob:conjClass bob:Suffix ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:pos bob:Verb ;
-	bob:person bob:Person2 ;
-	bob:tam bob:Imperative ;
-	bob:number bob:Plural ;
-	bob:token "ów-d’-a" ;
+bob:boni_J-VKijee-balaSuff2NegImprtv-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2NegImprtv-obed" ;
+	rdfs:comment "Heine1982" 
 	.
 
-#TERMCLUSTER: boni_J-VKijee-balaSuff2Infinitive-obed
-
-aama:IDe9bb9e6b-6f2d-44e2-9f7d-49d9b4d95ce9 a aamas:Term ;
+aama:IDffcae5c4-ae83-4837-b9ff-19a104cf8b6a a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	bob:gender bob:Common ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:morphClass bob:NonFinite ;
-	bob:pdgmType bob:Partial ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Infinitive ;
-	bob:token "ow-d’-ó(w)" ;
-	.
-
-#TERMCLUSTER: boni_J-VKijee-balaSuff2NegImprtv-obed
-
-aama:ID2c5e765e-2cc4-4fe5-8a8e-9c60cf5d0e0f a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImprtv-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	bob:gender bob:Common ;
@@ -262,8 +255,10 @@ aama:ID2c5e765e-2cc4-4fe5-8a8e-9c60cf5d0e0f a aamas:Term ;
 	bob:token "ha-‘ów-ne" ;
 	bob:number bob:Singular ;
 	.
-aama:ID89c455b0-f296-47b5-85bd-3b90b7e58806 a aamas:Term ;
+
+aama:IDd153455a-0145-4aa0-ab44-c731db4df871 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImprtv-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	bob:gender bob:Common ;
@@ -276,10 +271,37 @@ aama:ID89c455b0-f296-47b5-85bd-3b90b7e58806 a aamas:Term ;
 	bob:number bob:Plural ;
 	.
 
-#TERMCLUSTER: boni_J-VKijee-balaSuff2AffImperf-obed
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2Infinitive-obed
 
-aama:ID5ba5c09f-8a8b-4bbb-9917-c6a7cb4cad65 a aamas:Term ;
+bob:boni_J-VKijee-balaSuff2Infinitive-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2Infinitive-obed" ;
+	rdfs:comment "Heine1982" 
+	.
+
+aama:IDa98e8c22-7d90-41c8-821f-f01bbc4b1fc8 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2Infinitive-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	bob:gender bob:Common ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:morphClass bob:NonFinite ;
+	bob:pdgmType bob:Partial ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Infinitive ;
+	bob:token "ow-d’-ó(w)" ;
+	.
+
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2AffImperf-obed
+
+bob:boni_J-VKijee-balaSuff2AffImperf-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2AffImperf-obed" ;
+	rdfs:comment "Heine1982" 
+	.
+
+aama:IDe4d92701-fa54-4895-86e4-96d36d50155b a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -291,8 +313,10 @@ aama:ID5ba5c09f-8a8b-4bbb-9917-c6a7cb4cad65 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Common ;
 	.
-aama:ID126b2884-92ce-474c-b316-dfc8ae5e5f35 a aamas:Term ;
+
+aama:ID0ca23f65-a3f0-498d-b01d-c44571927671 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -304,8 +328,10 @@ aama:ID126b2884-92ce-474c-b316-dfc8ae5e5f35 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Common ;
 	.
-aama:IDca54893b-3247-4d63-b25d-cab93046d425 a aamas:Term ;
+
+aama:ID642998c0-6258-4287-bfb4-0b651d7f9b87 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -317,8 +343,10 @@ aama:IDca54893b-3247-4d63-b25d-cab93046d425 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Masc ;
 	.
-aama:IDfe327ea9-a693-4616-b7c7-5aa25fa433fe a aamas:Term ;
+
+aama:IDa7561925-3f8c-4d02-9cac-fa2ac7775469 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -330,8 +358,10 @@ aama:IDfe327ea9-a693-4616-b7c7-5aa25fa433fe a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:IDab86677d-153a-49a7-a768-97d8ade9276b a aamas:Term ;
+
+aama:ID6c365ba2-5e4e-45fb-a238-666054f9bf01 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -343,8 +373,10 @@ aama:IDab86677d-153a-49a7-a768-97d8ade9276b a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:IDd3d0a4d2-b486-493b-b9b1-2f1bc23661d3 a aamas:Term ;
+
+aama:IDaf545029-74c1-4f29-8987-5282f3f78fc6 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -356,8 +388,10 @@ aama:IDd3d0a4d2-b486-493b-b9b1-2f1bc23661d3 a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:ID74c8f6da-8141-4c76-932b-f41ca17b326d a aamas:Term ;
+
+aama:ID8fc283f5-1ad4-4000-9f7f-3669544fba48 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -370,10 +404,128 @@ aama:ID74c8f6da-8141-4c76-932b-f41ca17b326d a aamas:Term ;
 	bob:gender bob:Fem ;
 	.
 
-#TERMCLUSTER: boni_J-VKijee-balaSuff2NegImperf-obed
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2AffPerf-obed
 
-aama:IDfcff729c-8844-451a-bc1d-98846018ef08 a aamas:Term ;
+bob:boni_J-VKijee-balaSuff2AffPerf-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2AffPerf-obed" ;
+	rdfs:comment "Heine1982" 
+	.
+
+aama:IDf76171b9-2c39-46ac-903b-2cfd1a583c78 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-d-e" ;
+	bob:person bob:Person3 ;
+	bob:number bob:Plural ;
+	bob:gender bob:Common ;
+	.
+
+aama:IDd8463ce9-0768-4466-bf49-2b3b8a5cfebc a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-t-tə" ;
+	bob:person bob:Person3 ;
+	bob:number bob:Singular ;
+	bob:gender bob:Fem ;
+	.
+
+aama:ID04a94a78-62ea-4390-9d87-2add8fa32f5c a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-d-ə" ;
+	bob:person bob:Person3 ;
+	bob:number bob:Singular ;
+	bob:gender bob:Masc ;
+	.
+
+aama:ID4a25882c-6608-431f-a6df-99d3f9b03e94 a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-d’-ə" ;
+	bob:person bob:Person1 ;
+	bob:number bob:Singular ;
+	bob:gender bob:Common ;
+	.
+
+aama:IDad51cefb-582b-433f-bdb7-0cfa48c9f874 a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-nə" ;
+	bob:person bob:Person1 ;
+	bob:number bob:Plural ;
+	bob:gender bob:Common ;
+	.
+
+aama:ID62bd9205-e933-4bc0-a773-a0ab5948b436 a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-t-te" ;
+	bob:person bob:Person2 ;
+	bob:number bob:Plural ;
+	bob:gender bob:Common ;
+	.
+
+aama:ID1e3e31af-f50c-49db-b324-369595118557 a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:conjSubClass bob:S_2 ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:polarity bob:Affirmative ;
+	bob:pos bob:Verb ;
+	bob:tam bob:Perfect ;
+	bob:token "á-‘ow-t-tə" ;
+	bob:person bob:Person2 ;
+	bob:number bob:Singular ;
+	bob:gender bob:Common ;
+	.
+
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2NegImperf-obed
+
+bob:boni_J-VKijee-balaSuff2NegImperf-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2NegImperf-obed" ;
+	rdfs:comment "Heine1982" 
+	.
+
+aama:IDee5258bb-15c3-46eb-91f2-afac361a9d3e a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -385,8 +537,10 @@ aama:IDfcff729c-8844-451a-bc1d-98846018ef08 a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:IDc997aad7-6d88-4e86-bcde-f7256cf6f0b5 a aamas:Term ;
+
+aama:ID387969ed-d29d-4078-8118-64b1756544da a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -398,8 +552,10 @@ aama:IDc997aad7-6d88-4e86-bcde-f7256cf6f0b5 a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:IDa5630282-05f1-4b38-8fb5-7aebe2137346 a aamas:Term ;
+
+aama:ID020c6d52-a26f-4187-a2a0-cd06fd17c9da a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -411,8 +567,10 @@ aama:IDa5630282-05f1-4b38-8fb5-7aebe2137346 a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:ID36dd69b4-921d-40c1-9f55-b4f038efe3b6 a aamas:Term ;
+
+aama:IDfe2bc093-e04c-4f56-8351-4b8b8aa0103a a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -424,8 +582,10 @@ aama:ID36dd69b4-921d-40c1-9f55-b4f038efe3b6 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Common ;
 	.
-aama:IDc77f7c75-6eae-4930-a68a-066839196884 a aamas:Term ;
+
+aama:ID5f834ac8-5e7b-4a46-810d-06e84348efa3 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -437,8 +597,10 @@ aama:IDc77f7c75-6eae-4930-a68a-066839196884 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Masc ;
 	.
-aama:ID569a2bfb-9245-4123-8dfb-b8df8477f12a a aamas:Term ;
+
+aama:ID9c26f110-6da9-4a00-b7b9-48d6d82947cb a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -450,8 +612,10 @@ aama:ID569a2bfb-9245-4123-8dfb-b8df8477f12a a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Fem ;
 	.
-aama:ID32c9101f-750c-447d-8a79-a167d6e0038c a aamas:Term ;
+
+aama:IDbb82220d-f6e0-4235-a43c-b1e08d67d24b a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -464,104 +628,16 @@ aama:ID32c9101f-750c-447d-8a79-a167d6e0038c a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-#TERMCLUSTER: boni_J-VKijee-balaSuff2AffPerf-obed
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2NegPerf-obed
 
-aama:IDc86b3465-e54b-4629-bd10-b1990747353d a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-d-e" ;
-	bob:person bob:Person3 ;
-	bob:number bob:Plural ;
-	bob:gender bob:Common ;
-	.
-aama:IDcaf5ec23-70f2-4968-ae06-68e7069b117c a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-t-tə" ;
-	bob:person bob:Person3 ;
-	bob:number bob:Singular ;
-	bob:gender bob:Fem ;
-	.
-aama:ID17ed72fd-9b73-4894-8d45-e89e39581202 a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-d-ə" ;
-	bob:person bob:Person3 ;
-	bob:number bob:Singular ;
-	bob:gender bob:Masc ;
-	.
-aama:IDa8defbf3-af87-4317-aa61-1650beafb542 a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-d’-ə" ;
-	bob:person bob:Person1 ;
-	bob:number bob:Singular ;
-	bob:gender bob:Common ;
-	.
-aama:ID36ee8a22-6fa5-4fdd-b595-d17aee7c1043 a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-nə" ;
-	bob:person bob:Person1 ;
-	bob:number bob:Plural ;
-	bob:gender bob:Common ;
-	.
-aama:ID431b1810-a72d-4882-8a9c-cfba4731183d a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-t-te" ;
-	bob:person bob:Person2 ;
-	bob:number bob:Plural ;
-	bob:gender bob:Common ;
-	.
-aama:ID979e00c9-878f-4d9b-be39-c05337116a59 a aamas:Term ;
-	aamas:lang aama:Boni-kijee-bala ;
-	bob:conjClass bob:Suffix ;
-	bob:conjSubClass bob:S_2 ;
-	aamas:lexeme aama:Boni-kijee-bala-obed ;
-	bob:polarity bob:Affirmative ;
-	bob:pos bob:Verb ;
-	bob:tam bob:Perfect ;
-	bob:token "á-‘ow-t-tə" ;
-	bob:person bob:Person2 ;
-	bob:number bob:Singular ;
-	bob:gender bob:Common ;
+bob:boni_J-VKijee-balaSuff2NegPerf-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2NegPerf-obed" ;
+	rdfs:comment "Heine1982" 
 	.
 
-#TERMCLUSTER: boni_J-VKijee-balaSuff2NegPerf-obed
-
-aama:ID2915d244-75e0-4ecc-89ae-880b3082ebaf a aamas:Term ;
+aama:ID77a95e73-071e-452c-9a53-3a873a3d97b7 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -573,8 +649,10 @@ aama:ID2915d244-75e0-4ecc-89ae-880b3082ebaf a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:ID4970f81a-c3a0-4f2b-9eee-067b5907d074 a aamas:Term ;
+
+aama:IDf24f9430-1732-4ec3-be32-421b1cf11423 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -586,8 +664,10 @@ aama:ID4970f81a-c3a0-4f2b-9eee-067b5907d074 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Masc ;
 	.
-aama:ID6262aa79-fa42-436f-b1f4-f94a0a087282 a aamas:Term ;
+
+aama:ID8d6a8b78-0d8a-48c3-be2c-8ca6a7ed47bf a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -599,8 +679,10 @@ aama:ID6262aa79-fa42-436f-b1f4-f94a0a087282 a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Common ;
 	.
-aama:ID2bc9be50-2464-4761-80cb-27311a1950cb a aamas:Term ;
+
+aama:ID563c1ba2-1cec-4d85-be13-968b1104d9fb a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -612,8 +694,10 @@ aama:ID2bc9be50-2464-4761-80cb-27311a1950cb a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:IDe97cc408-dc8d-4c44-9a2a-3923de959248 a aamas:Term ;
+
+aama:ID9c25d754-b462-4080-b253-89458cfed0f5 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -625,8 +709,10 @@ aama:IDe97cc408-dc8d-4c44-9a2a-3923de959248 a aamas:Term ;
 	bob:number bob:Plural ;
 	bob:gender bob:Common ;
 	.
-aama:ID1aa601dc-03c1-4c43-b39e-2459d4e8a57a a aamas:Term ;
+
+aama:ID0956b8ab-8082-4857-bbfe-4fc9d1a248dc a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -638,8 +724,10 @@ aama:ID1aa601dc-03c1-4c43-b39e-2459d4e8a57a a aamas:Term ;
 	bob:number bob:Singular ;
 	bob:gender bob:Common ;
 	.
-aama:ID54c16dbf-dc94-4280-be78-dae7caa161e6 a aamas:Term ;
+
+aama:ID452b728b-7b5a-4681-9b00-2bcb56a33aa4 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
 	bob:conjSubClass bob:S_2 ;
 	aamas:lexeme aama:Boni-kijee-bala-obed ;
@@ -652,9 +740,31 @@ aama:ID54c16dbf-dc94-4280-be78-dae7caa161e6 a aamas:Term ;
 	bob:gender bob:Fem ;
 	.
 
-#MUTERMCLUSTER: Pronominal Paradigms to be added
+#TERMCLUSTER:  boni_J-VKijee-balaSuff2AffImprtv-obed
 
-aama:ID551c7e41-394c-4637-b07f-6a5c3048b65f a aamas:Muterm ;
+bob:boni_J-VKijee-balaSuff2AffImprtv-obed a aamas:Termcluster ;
+	rdfs:label "boni_J-VKijee-balaSuff2AffImprtv-obed" ;
+	rdfs:comment "Heine1982" 
+	.
+
+aama:IDed70702b-ddb6-4f4c-a9c2-b9494a920f74 a aamas:Term ;
+	aamas:lang aama:Boni-kijee-bala ;
+	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImprtv-obed ;
+	bob:conjSubClass bob:S_2 ;
+	bob:person bob:Person2 ;
+	bob:number bob:Plural ;
+	bob:pos bob:Verb ;
+	aamas:lexeme aama:Boni-kijee-bala-obed ;
+	bob:conjClass bob:Suffix ;
+	bob:polarity bob:Affirmative ;
+	bob:tam bob:Imperative ;
+	bob:gender bob:Common ;
+	bob:token "ów-d’-a" ;
+	.
+
+#MUTERMCLUSTER:  Pronominal Paradigms to be added
+
+aama:ID407b37e5-0464-4a51-baef-3aa677b4a301 a aamas:Muterm ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:morpheme aama:Boni-kijee-bala-TOBEADDED ;
 	bob:pos bob:Pronoun ;
