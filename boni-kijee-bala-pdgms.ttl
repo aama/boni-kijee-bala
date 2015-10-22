@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/boni-kijee-bala/boni-kijee-bala-pdgms.edn
+#../aama-data/data/boni-kijee-bala//boni-kijee-bala-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -241,7 +241,7 @@ bob:boni_J-VKijee-balaSuff2NegImprtv-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:IDffcae5c4-ae83-4837-b9ff-19a104cf8b6a a aamas:Term ;
+aama:ID94c1af15-fd76-49cd-835a-e82120ea9d81 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImprtv-obed ;
 	bob:conjClass bob:Suffix ;
@@ -256,7 +256,7 @@ aama:IDffcae5c4-ae83-4837-b9ff-19a104cf8b6a a aamas:Term ;
 	bob:number bob:Singular ;
 	.
 
-aama:IDd153455a-0145-4aa0-ab44-c731db4df871 a aamas:Term ;
+aama:ID8ee8510d-6106-41f5-be74-b6ec313d097b a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImprtv-obed ;
 	bob:conjClass bob:Suffix ;
@@ -278,7 +278,7 @@ bob:boni_J-VKijee-balaSuff2Infinitive-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:IDa98e8c22-7d90-41c8-821f-f01bbc4b1fc8 a aamas:Term ;
+aama:ID84c7bd0e-fa53-43c5-a307-876ef45e0ad1 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2Infinitive-obed ;
 	bob:conjClass bob:Suffix ;
@@ -299,7 +299,7 @@ bob:boni_J-VKijee-balaSuff2AffImperf-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:IDe4d92701-fa54-4895-86e4-96d36d50155b a aamas:Term ;
+aama:ID7e260866-db78-4ede-ac1c-d2eb2688161a a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -314,7 +314,7 @@ aama:IDe4d92701-fa54-4895-86e4-96d36d50155b a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID0ca23f65-a3f0-498d-b01d-c44571927671 a aamas:Term ;
+aama:ID1b63165a-4abb-464b-aed4-4b32d03de557 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -329,7 +329,7 @@ aama:ID0ca23f65-a3f0-498d-b01d-c44571927671 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID642998c0-6258-4287-bfb4-0b651d7f9b87 a aamas:Term ;
+aama:ID084daf9f-b345-4c5f-a667-30c6fef23054 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -344,7 +344,7 @@ aama:ID642998c0-6258-4287-bfb4-0b651d7f9b87 a aamas:Term ;
 	bob:gender bob:Masc ;
 	.
 
-aama:IDa7561925-3f8c-4d02-9cac-fa2ac7775469 a aamas:Term ;
+aama:ID7a2e41d8-7040-45b6-82aa-0660bc7986e8 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -359,7 +359,7 @@ aama:IDa7561925-3f8c-4d02-9cac-fa2ac7775469 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID6c365ba2-5e4e-45fb-a238-666054f9bf01 a aamas:Term ;
+aama:ID4f7c25bf-93f3-424a-80ca-08e752514314 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -374,7 +374,7 @@ aama:ID6c365ba2-5e4e-45fb-a238-666054f9bf01 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:IDaf545029-74c1-4f29-8987-5282f3f78fc6 a aamas:Term ;
+aama:ID0ea5397b-eaaa-456b-8902-50665da8a056 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -389,7 +389,7 @@ aama:IDaf545029-74c1-4f29-8987-5282f3f78fc6 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID8fc283f5-1ad4-4000-9f7f-3669544fba48 a aamas:Term ;
+aama:ID351957c1-c85c-4b72-9f9c-dd3161ef4aa1 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -411,7 +411,7 @@ bob:boni_J-VKijee-balaSuff2AffPerf-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:IDf76171b9-2c39-46ac-903b-2cfd1a583c78 a aamas:Term ;
+aama:IDc87ee18c-01fc-4662-ae6b-7730f0963e37 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -426,7 +426,7 @@ aama:IDf76171b9-2c39-46ac-903b-2cfd1a583c78 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:IDd8463ce9-0768-4466-bf49-2b3b8a5cfebc a aamas:Term ;
+aama:IDafecd568-2c0d-4084-ab02-befff8f1ce94 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -441,7 +441,7 @@ aama:IDd8463ce9-0768-4466-bf49-2b3b8a5cfebc a aamas:Term ;
 	bob:gender bob:Fem ;
 	.
 
-aama:ID04a94a78-62ea-4390-9d87-2add8fa32f5c a aamas:Term ;
+aama:ID1cf1e438-f897-4cd4-8d49-933402b144f4 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -456,7 +456,7 @@ aama:ID04a94a78-62ea-4390-9d87-2add8fa32f5c a aamas:Term ;
 	bob:gender bob:Masc ;
 	.
 
-aama:ID4a25882c-6608-431f-a6df-99d3f9b03e94 a aamas:Term ;
+aama:ID14dce70c-886c-44ab-8de1-a67e6061d6ad a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -471,7 +471,7 @@ aama:ID4a25882c-6608-431f-a6df-99d3f9b03e94 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:IDad51cefb-582b-433f-bdb7-0cfa48c9f874 a aamas:Term ;
+aama:ID8e5fa2dd-a09d-4ee2-9c4c-75952febfc9d a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -486,7 +486,7 @@ aama:IDad51cefb-582b-433f-bdb7-0cfa48c9f874 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID62bd9205-e933-4bc0-a773-a0ab5948b436 a aamas:Term ;
+aama:IDc8f58312-a757-478c-8e1b-c488f5a464db a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -501,7 +501,7 @@ aama:ID62bd9205-e933-4bc0-a773-a0ab5948b436 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID1e3e31af-f50c-49db-b324-369595118557 a aamas:Term ;
+aama:ID0161b3a1-586d-43e8-98e9-4de425170d4a a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -523,7 +523,7 @@ bob:boni_J-VKijee-balaSuff2NegImperf-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:IDee5258bb-15c3-46eb-91f2-afac361a9d3e a aamas:Term ;
+aama:ID2f15f989-1a01-49e7-abd8-c41f8e22fb7c a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -538,7 +538,7 @@ aama:IDee5258bb-15c3-46eb-91f2-afac361a9d3e a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID387969ed-d29d-4078-8118-64b1756544da a aamas:Term ;
+aama:IDb20866e5-b787-48cf-8410-cbc4fcaba9e8 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -553,7 +553,7 @@ aama:ID387969ed-d29d-4078-8118-64b1756544da a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID020c6d52-a26f-4187-a2a0-cd06fd17c9da a aamas:Term ;
+aama:IDfb18031a-c3de-4778-9a48-358eb83d1c96 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -568,7 +568,7 @@ aama:ID020c6d52-a26f-4187-a2a0-cd06fd17c9da a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:IDfe2bc093-e04c-4f56-8351-4b8b8aa0103a a aamas:Term ;
+aama:ID24b0057c-259f-4601-aaf5-96e010e9114e a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -583,7 +583,7 @@ aama:IDfe2bc093-e04c-4f56-8351-4b8b8aa0103a a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID5f834ac8-5e7b-4a46-810d-06e84348efa3 a aamas:Term ;
+aama:ID02ffa927-2391-4a11-a2fd-b588473e1c59 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -598,7 +598,7 @@ aama:ID5f834ac8-5e7b-4a46-810d-06e84348efa3 a aamas:Term ;
 	bob:gender bob:Masc ;
 	.
 
-aama:ID9c26f110-6da9-4a00-b7b9-48d6d82947cb a aamas:Term ;
+aama:ID47fdc5be-9bb8-4538-b458-7ff0beb779fe a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -613,7 +613,7 @@ aama:ID9c26f110-6da9-4a00-b7b9-48d6d82947cb a aamas:Term ;
 	bob:gender bob:Fem ;
 	.
 
-aama:IDbb82220d-f6e0-4235-a43c-b1e08d67d24b a aamas:Term ;
+aama:ID8cbd41fd-ee35-4a3a-b432-63a4bfa4ec14 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegImperf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -635,7 +635,7 @@ bob:boni_J-VKijee-balaSuff2NegPerf-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:ID77a95e73-071e-452c-9a53-3a873a3d97b7 a aamas:Term ;
+aama:ID6bb7447f-53f3-42b5-aa67-f1d4afb12051 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -650,7 +650,7 @@ aama:ID77a95e73-071e-452c-9a53-3a873a3d97b7 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:IDf24f9430-1732-4ec3-be32-421b1cf11423 a aamas:Term ;
+aama:ID6b274192-19ca-4991-9660-7df1353e51b9 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -665,7 +665,7 @@ aama:IDf24f9430-1732-4ec3-be32-421b1cf11423 a aamas:Term ;
 	bob:gender bob:Masc ;
 	.
 
-aama:ID8d6a8b78-0d8a-48c3-be2c-8ca6a7ed47bf a aamas:Term ;
+aama:ID284b6a3c-2daa-459b-a0c0-d3986ff3d080 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -680,7 +680,7 @@ aama:ID8d6a8b78-0d8a-48c3-be2c-8ca6a7ed47bf a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID563c1ba2-1cec-4d85-be13-968b1104d9fb a aamas:Term ;
+aama:ID69f02792-22f8-42d3-9a29-615b25bff46b a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -695,7 +695,7 @@ aama:ID563c1ba2-1cec-4d85-be13-968b1104d9fb a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID9c25d754-b462-4080-b253-89458cfed0f5 a aamas:Term ;
+aama:IDa079fe59-7337-49bb-abc1-fad477092cd2 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -710,7 +710,7 @@ aama:ID9c25d754-b462-4080-b253-89458cfed0f5 a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID0956b8ab-8082-4857-bbfe-4fc9d1a248dc a aamas:Term ;
+aama:ID99bdceb4-3ec0-499a-b4e9-516729a32954 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -725,7 +725,7 @@ aama:ID0956b8ab-8082-4857-bbfe-4fc9d1a248dc a aamas:Term ;
 	bob:gender bob:Common ;
 	.
 
-aama:ID452b728b-7b5a-4681-9b00-2bcb56a33aa4 a aamas:Term ;
+aama:ID15e20214-9984-445d-8ec5-a5ebbaf59b84 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2NegPerf-obed ;
 	bob:conjClass bob:Suffix ;
@@ -747,7 +747,7 @@ bob:boni_J-VKijee-balaSuff2AffImprtv-obed a aamas:Termcluster ;
 	rdfs:comment "Heine1982" 
 	.
 
-aama:IDed70702b-ddb6-4f4c-a9c2-b9494a920f74 a aamas:Term ;
+aama:IDf1b916bb-fbeb-48f5-9d4c-218eccfb6bb4 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:boni_J-VKijee-balaSuff2AffImprtv-obed ;
 	bob:conjSubClass bob:S_2 ;
@@ -762,10 +762,15 @@ aama:IDed70702b-ddb6-4f4c-a9c2-b9494a920f74 a aamas:Term ;
 	bob:token "ów-d’-a" ;
 	.
 
-#MUTERMCLUSTER:  Pronominal Paradigms to be added
+#MUTERMCLUSTER:  Pronominal_Paradigms_to_be_added
 
-aama:ID407b37e5-0464-4a51-baef-3aa677b4a301 a aamas:Muterm ;
-	aamas:lang aama:Boni-kijee-bala ;
+bob:Pronominal_Paradigms_to_be_added a aamas:MuTermcluster ;
+	rdfs:label "Pronominal_Paradigms_to_be_added" ;
+	rdfs:comment "" 
+	.
+
+aama:ID2c226104-ee33-44a3-b7ec-57a349d44350 a aamas:Muterm ;
+	aamas:lang aama:Boni-kijee-bala ;	aamas:memberOf bob:Pronominal_Paradigms_to_be_added ;
 	aamas:morpheme aama:Boni-kijee-bala-TOBEADDED ;
 	bob:pos bob:Pronoun ;
 	bob:proClass bob:To_be_added ;
