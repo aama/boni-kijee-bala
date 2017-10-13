@@ -4,19 +4,17 @@
 :sgpref "bob"
 :datasource "Heine1982"
 :geodemoURL "http://www.ethnologue.com/language/bob"
-:geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine."
-:schemata{:status [:NA],
-          :gender [:Common :Fem :Masc],
-          :conjSubClass [:S_2],
-          :pdgmType [:NonFinite :Finite :NA]
-          :polarity [:Affirmative :Negative],
-          :conjClass [:Suffix],
-          :pos [:Verb :Pronoun],
-          :person [:Person1 :Person2 :Person3],
-          :morphClass [:NonFinite],
-          :proClass [:To_be_added],
-          :tam [:Imperative :Imperfect :Infinitive :Perfect],
-          :number [:Plural :Singular]}
+ :geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine."
+ :schemata {:conjClass [:Suffix ],
+            :conjSubClass [:S_2],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:To_be_added],
+            :tam [:Imperative :Imperfect :Infinitive :Perfect]
+            :pdgmType [:Finite :Infinitive :PRO]} 
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :morphClass :polarity :pos :proClass :tam],
           :inflClass [:conjClass :conjSubClass],
@@ -77,12 +75,11 @@
     }
     {:label "boni_J-VKijee-balaSuff2Infinitive-obed"
     :note "Heine1982"
-    :pdgmType :NonFinite
+    :pdgmType :Infinitive
     :common {:conjClass :Suffix,
              :conjSubClass :S_2,
              :gender :Common,
              :lexeme :obed,
-             :morphClass :NonFinite,
              :pos :Verb,
              :tam :Infinitive}
     :terms [[:token],
@@ -142,12 +139,11 @@
 ]
 :muterms [
     {:label "Pronominal_Paradigms_to_be_added"
-    :pdgmType :NA
-    :common {:morpheme :TOBEADDED,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :To_be_added}
-    :terms [[:status :person :token],
-            [:NA :Not_in_datastore "not attested"]]
+    :terms [[:token],
+            [ "not attested"]]
     }
 ]
 }
