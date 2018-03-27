@@ -1,153 +1,148 @@
 {
-:lang :boni-kijee-bala
-:subfamily "Lowland East Cushitic Omo-Tana"
-:sgpref "bob"
-:datasource "Heine1982"
-:geodemoURL "http://www.ethnologue.com/language/bob"
+ :lang :boni-kijee-bala
+ :subfamily "Lowland East Cushitic Omo-Tana"
+ :sgpref "bob"
+ :datasource "Heine1982"
+ :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine."
- :schemata {:vmorphClass [:InfinitiveStem ],
-            :conjClass [:Suffix],
-            :conjSubClass [:S_2],
-            :gender [:Common :Fem :Masc],
-            :number [:Plural :Singular],
-            :person [:Person1 :Person2 :Person3],
-            :polarity [:Affirmative :Negative],
-            :pos [:Pronoun :Verb],
-            :proClass [:To_be_added],
-            :tam [:Imperative :Imperfect :Infinitive :Perfect]
-            :pdgmType [:Finite :PRO :VOther]}
-:pclass {:pngClass [:person :number :gender],
+:schemata {:conjClass [:Suffix],
+           :conjSubClass [:S_2],
+           :gender [:Common :Fem :Masc],
+           :number [:Plural :Singular],
+           :person [:Person1 :Person2 :Person3],
+           :polarity [:Affirmative :Negative],
+           :pos [:Pronoun :Verb],
+           :proClass [:To_be_added],
+           :tam [:Imperative :Imperfect :Infinitive :Perfect],
+           :vmorphClass [:Finite :InfinitiveStem]
+           }
+ :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :morphClass :polarity :pos :proClass :tam],
           :inflClass [:conjClass :conjSubClass],
           :otherClass []}
-:morphemes{:TOBEADDED {:gloss "[x]", :lemma "[y]"}}
-:lexemes{:obed {:gloss "[x]", :lemma "[y]"}}
-:lxterms [
-    {:label "boni_J-VKijee-balaSuff2AffImperf-obed"
-    :note "Heine1982"
-    :pdgmType :Finite
-    :common {:conjClass :Suffix,
-             :conjSubClass :S_2,
-             :lexeme :obed,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "á-‘ow-d’-a"],
-            [:Singular :Person2 :Common "á-‘ow-t-ta"],
-            [:Singular :Person3 :Masc "á-‘ow-d-a"],
-            [:Singular :Person3 :Fem "á-‘ow-t-ta"],
-            [:Plural :Person1 :Common "á-‘ow-na"],
-            [:Plural :Person2 :Common "á-‘ow-t-ti"],
-            [:Plural :Person3 :Common "á-‘ow-d-i"]]
-    }
-    {:label "boni_J-VKijee-balaSuff2AffImprtv-obed"
-    :note "Heine1982"
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :conjSubClass :S_2,
-             :polarity :Affirmative,
-             :conjClass :Suffix,
-             :lexeme :obed,
-             :pos :Verb,
-             :person :Person2,
-             :tam :Imperative,
-             :number :Plural}
-    :terms [[:token],
-            ["ów-d’-a"]]
-    }
-    {:label "boni_J-VKijee-balaSuff2AffPerf-obed"
-    :note "Heine1982"
-    :pdgmType :Finite
-    :common {:conjClass :Suffix,
-             :conjSubClass :S_2,
-             :lexeme :obed,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Perfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "á-‘ow-d’-ə"],
-            [:Singular :Person2 :Common "á-‘ow-t-tə"],
-            [:Singular :Person3 :Masc "á-‘ow-d-ə"],
-            [:Singular :Person3 :Fem "á-‘ow-t-tə"],
-            [:Plural :Person1 :Common "á-‘ow-nə"],
-            [:Plural :Person2 :Common "á-‘ow-t-te"],
-            [:Plural :Person3 :Common "á-‘ow-d-e"]]
-    }
-    {:label "boni_J-VKijee-balaSuff2Infinitive-obed"
-    :note "Heine1982"
-    :pdgmType :VOther
-    :common {:vmorphClass :InfinitiveStem
-             :conjClass :Suffix,
-             :conjSubClass :S_2,
-             :gender :Common,
-             :lexeme :obed,
-             :pos :Verb,
-             :tam :Infinitive}
-    :terms [[:token],
-            ["ow-d’-ó(w)"]]
-    }
-    {:label "boni_J-VKijee-balaSuff2NegImperf-obed"
-    :note "Heine1982"
-    :pdgmType :Finite
-    :common {:conjClass :Suffix,
-             :conjSubClass :S_2,
-             :lexeme :obed,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "húú-‘ow-d’-o"],
-            [:Singular :Person2 :Common "húú-‘ow-t-to"],
-            [:Singular :Person3 :Masc "húú-‘ow-d-o"],
-            [:Singular :Person3 :Fem "húú-‘ow’t-to"],
-            [:Plural :Person1 :Common "húú-‘ow-no"],
-            [:Plural :Person2 :Common "húú-‘ow-t-ti"],
-            [:Plural :Person3 :Common "húú-‘ow-d-i"]]
-    }
-    {:label "boni_J-VKijee-balaSuff2NegImprtv-obed"
-    :note "Heine1982"
-    :pdgmType :Finite
-    :common {:conjClass :Suffix,
-             :conjSubClass :S_2,
-             :gender :Common,
-             :lexeme :obed,
-             :person :Person2,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:number :token],
-            [:Singular "ha-‘ów-ne"],
-            [:Plural "ha-‘ow-náha ~ ha-‘ow-níya"]]
-    }
-    {:label "boni_J-VKijee-balaSuff2NegPerf-obed"
-    :note "Heine1982"
-    :pdgmType :Finite
-    :common {:conjClass :Suffix,
-             :conjSubClass :S_2,
-             :lexeme :obed,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Perfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "an húú-‘ow-ne"],
-            [:Singular :Person2 :Common "ad húú-‘ow-ne"],
-            [:Singular :Person3 :Masc "us húú-‘ow-ne"],
-            [:Singular :Person3 :Fem "ii húú-‘ow-ne"],
-            [:Plural :Person1 :Common "un húú-‘ow-ne"],
-            [:Plural :Person2 :Common "ado húú-‘ow-ne"],
-            [:Plural :Person3 :Common "iyo húú-‘ow-ne"]]
-    }
-]
-:muterms [
-    {:label "Pronominal_Paradigms_to_be_added"
-    :pdgmType :PRO
-    :common {:pos :Pronoun,
-             :proClass :To_be_added}
-    :terms [[:token],
-            [ "not attested"]]
-    }
-]
-}
- 
- 
+ :lexemes{:obed {:gloss "[x]", :lemma "[y]"}}
+ :termclusters [
+                {:label "boni_J-VKijee-balaSuff2AffImperf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix,
+                          :conjSubClass :S_2,
+                          :lexeme :obed,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ow-d’-a"],
+                         [:Singular :Person2 :Common "á-‘ow-t-ta"],
+                         [:Singular :Person3 :Masc "á-‘ow-d-a"],
+                         [:Singular :Person3 :Fem "á-‘ow-t-ta"],
+                         [:Plural :Person1 :Common "á-‘ow-na"],
+                         [:Plural :Person2 :Common "á-‘ow-t-ti"],
+                         [:Plural :Person3 :Common "á-‘ow-d-i"]]
+                 }
+                {:label "boni_J-VKijee-balaSuff2AffImprtv-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :gender :Common,
+                          :conjSubClass :S_2,
+                          :polarity :Affirmative,
+                          :conjClass :Suffix,
+                          :lexeme :obed,
+                          :pos :Verb,
+                          :person :Person2,
+                          :tam :Imperative,
+                          :number :Plural}
+                 :terms [[:token],
+                         ["ów-d’-a"]]
+                 }
+                {:label "boni_J-VKijee-balaSuff2AffPerf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix,
+                          :conjSubClass :S_2,
+                          :lexeme :obed,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ow-d’-ə"],
+                         [:Singular :Person2 :Common "á-‘ow-t-tə"],
+                         [:Singular :Person3 :Masc "á-‘ow-d-ə"],
+                         [:Singular :Person3 :Fem "á-‘ow-t-tə"],
+                         [:Plural :Person1 :Common "á-‘ow-nə"],
+                         [:Plural :Person2 :Common "á-‘ow-t-te"],
+                         [:Plural :Person3 :Common "á-‘ow-d-e"]]
+                 }
+                {:label "boni_J-VKijee-balaSuff2Infinitive-obed"
+                 :note "Heine1982"
+                 :common {:vmorphClass :InfinitiveStem
+                          :conjClass :Suffix,
+                          :conjSubClass :S_2,
+                          :gender :Common,
+                          :lexeme :obed,
+                          :pos :Verb,
+                          :tam :Infinitive}
+                 :terms [[:token],
+                         ["ow-d’-ó(w)"]]
+                 }
+                {:label "boni_J-VKijee-balaSuff2NegImperf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix,
+                          :conjSubClass :S_2,
+                          :lexeme :obed,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘ow-d’-o"],
+                         [:Singular :Person2 :Common "húú-‘ow-t-to"],
+                         [:Singular :Person3 :Masc "húú-‘ow-d-o"],
+                         [:Singular :Person3 :Fem "húú-‘ow’t-to"],
+                         [:Plural :Person1 :Common "húú-‘ow-no"],
+                         [:Plural :Person2 :Common "húú-‘ow-t-ti"],
+                         [:Plural :Person3 :Common "húú-‘ow-d-i"]]
+                 }
+                {:label "boni_J-VKijee-balaSuff2NegImprtv-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix,
+                          :conjSubClass :S_2,
+                          :gender :Common,
+                          :lexeme :obed,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘ów-ne"],
+                         [:Plural "ha-‘ow-náha ~ ha-‘ow-níya"]]
+                 }
+                {:label "boni_J-VKijee-balaSuff2NegPerf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix,
+                          :conjSubClass :S_2,
+                          :lexeme :obed,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an húú-‘ow-ne"],
+                         [:Singular :Person2 :Common "ad húú-‘ow-ne"],
+                         [:Singular :Person3 :Masc "us húú-‘ow-ne"],
+                         [:Singular :Person3 :Fem "ii húú-‘ow-ne"],
+                         [:Plural :Person1 :Common "un húú-‘ow-ne"],
+                         [:Plural :Person2 :Common "ado húú-‘ow-ne"],
+                         [:Plural :Person3 :Common "iyo húú-‘ow-ne"]]
+                 }
+                {:label "Pronominal_Paradigms_to_be_added"
+                 :common {:pos :Pronoun,
+                          :proClass :To_be_added}
+                 :terms [[:token],
+                         [ "not attested"]]
+                 }
+                ]
+ }
+
+
