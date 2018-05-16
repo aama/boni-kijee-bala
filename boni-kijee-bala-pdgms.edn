@@ -24,7 +24,7 @@
  :termclusters [
                 {:label "boni_J-VKijee-balaSuff2AffImperf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
                           :lexeme :obed,
@@ -42,7 +42,7 @@
                  }
                 {:label "boni_J-VKijee-balaSuff2AffImprtv-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :S_2,
                           :polarity :Affirmative,
@@ -57,7 +57,7 @@
                  }
                 {:label "boni_J-VKijee-balaSuff2AffPerf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
                           :lexeme :obed,
@@ -87,7 +87,7 @@
                  }
                 {:label "boni_J-VKijee-balaSuff2NegImperf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
                           :lexeme :obed,
@@ -105,7 +105,7 @@
                  }
                 {:label "boni_J-VKijee-balaSuff2NegImprtv-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
                           :gender :Common,
@@ -120,7 +120,7 @@
                  }
                 {:label "boni_J-VKijee-balaSuff2NegPerf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
                           :lexeme :obed,
