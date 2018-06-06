@@ -5,17 +5,18 @@
  :datasource "Heine1982"
  :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine."
-:schemata {:conjClass [:Suffix],
-           :conjSubClass [:S_2],
-           :gender [:Common :Fem :Masc],
-           :number [:Plural :Singular],
-           :person [:Person1 :Person2 :Person3],
-           :polarity [:Affirmative :Negative],
-           :pos [:Pronoun :Verb],
-           :proClass [:To_be_added],
-           :tam [:Imperative :Imperfect :Infinitive :Perfect],
-           :vmorphClass [:Finite :InfinitiveStem]
-           }
+:schemata {:lexeme [:obed ],
+ :conjClass [:Suffix],
+ :conjSubClass [:S_2],
+ :gender [:Common :Fem :Masc],
+ :number [:Plural :Singular],
+ :person [:Person1 :Person2 :Person3],
+ :polarity [:Affirmative :Negative],
+ :pos [:Pronoun :Verb],
+ :proClass [:To_be_added],
+ :tam [:Imperative :Imperfect :Infinitive :Perfect],
+ :vmorphClass [:Finite :InfinitiveStem]
+ }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :morphClass :polarity :pos :proClass :tam],
           :inflClass [:conjClass :conjSubClass],
@@ -137,7 +138,7 @@
                          [:Plural :Person3 :Common "iyo húú-‘ow-ne"]]
                  }
                 {:label "Pronominal_Paradigms_to_be_added"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :To_be_added}
                  :terms [[:token],
                          [ "not attested"]]
