@@ -5,8 +5,7 @@
  :datasource "Heine1982"
  :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine."
-:schemata {:lexeme [:obed ],
- :conjClass [:Suffix],
+:schemata { :conjClass [:Suffix],
  :conjSubClass [:S_2],
  :gender [:Common :Fem :Masc],
  :number [:Plural :Singular],
@@ -21,7 +20,9 @@
           :synsemClass [:case :derivedStem :morphClass :polarity :pos :proClass :tam],
           :inflClass [:conjClass :conjSubClass],
           :otherClass []}
- :lexemes{:obed {:gloss "[x]", :lemma "[y]"}}
+ :lexemes {
+:obed   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+}
  :termclusters [
                 {:label "boni_J-VKijee-balaSuff2AffImperf-obed"
                  :note "Heine1982"
