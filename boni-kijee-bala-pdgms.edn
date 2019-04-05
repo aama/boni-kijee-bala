@@ -2,30 +2,30 @@
  :lang :boni-kijee-bala
  :subfamily "Lowland East Cushitic Omo-Tana"
  :sgpref "bob"
- :datasource "Heine1982"
+ :datasource "Heine1982; abbrev H82s"
  :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine."
-:schemata { :conjClass [:Suffix],
- :conjSubClass [:S_2],
- :gender [:Common :Fem :Masc],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:To_be_added],
- :tam [:Imperative :Imperfect :Infinitive :Perfect],
- :vmorphClass [:Finite :InfinitiveStem]
- }
+ :schemata { :conjClass [:Suffix],
+            :conjSubClass [:S_2],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:To_be_added],
+            :tam [:Imperative :Imperfect :Infinitive :Perfect],
+            :vmorphClass [:Finite :InfinitiveStem]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :morphClass :polarity :pos :proClass :tam],
           :inflClass [:conjClass :conjSubClass],
           :otherClass []}
  :lexemes {
-:obed   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-}
+           :obed   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           }
  :termclusters [
                 {:label "boni_J-VKijee-balaSuff2AffImperf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
@@ -43,7 +43,7 @@
                          [:Plural :Person3 :Common "á-‘ow-d-i"]]
                  }
                 {:label "boni_J-VKijee-balaSuff2AffImprtv-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :S_2,
@@ -58,7 +58,7 @@
                          ["ów-d’-a"]]
                  }
                 {:label "boni_J-VKijee-balaSuff2AffPerf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
@@ -76,7 +76,7 @@
                          [:Plural :Person3 :Common "á-‘ow-d-e"]]
                  }
                 {:label "boni_J-VKijee-balaSuff2Infinitive-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :InfinitiveStem
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
@@ -88,7 +88,7 @@
                          ["ow-d’-ó(w)"]]
                  }
                 {:label "boni_J-VKijee-balaSuff2NegImperf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
@@ -106,7 +106,7 @@
                          [:Plural :Person3 :Common "húú-‘ow-d-i"]]
                  }
                 {:label "boni_J-VKijee-balaSuff2NegImprtv-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
@@ -121,7 +121,7 @@
                          [:Plural "ha-‘ow-náha ~ ha-‘ow-níya"]]
                  }
                 {:label "boni_J-VKijee-balaSuff2NegPerf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :conjSubClass :S_2,
@@ -139,6 +139,7 @@
                          [:Plural :Person3 :Common "iyo húú-‘ow-ne"]]
                  }
                 {:label "Pronominal_Paradigms_to_be_added"
+                 :note "H82s"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :To_be_added}
                  :terms [[:token],
