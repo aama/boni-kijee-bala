@@ -1,192 +1,197 @@
 {
   "lang": "boni-kijee-bala",
   "subfamily": "Lowland East Cushitic Omo-Tana",
-  "sgpref": "bob",
-  "datasource": "Heine1982; abbrev H82s",
+  "lgpref": "bob",
+  "datasource": "Heine, Bernd. 1982. Boni Dialects. The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya, vol. 10. Berlin: Dietrich Reimer Verlag. [H82]",
+  "datasourceNotes": "We give here only the forms for the verb 'obed' where  Heine notes a contrast with boni-jara",
   "geodemoURL": "http://www.ethnologue.com/language/bob",
   "geodemoTXT": "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine.",
   "schemata": {
-    "conjSubClass": [
-      "S_2"
-    ],
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3"
-    ],
-    "number": [
-      "Plural",
-      "Singular"
-    ],
-    "vmorphClass": [
-      "Finite",
-      "InfinitiveStem"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "To_be_added"
-    ],
-    "conjClass": [
-      "Suffix"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negative"
-    ],
-    "tam": [
-      "Imperative",
-      "Imperfect",
-      "Infinitive",
-      "Perfect"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Masc"
+  "conjClass": [
+    "Suffix"
+  ],
+  "conjSubClass": [
+    "S_2"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Masc"
+  ],
+  "lexeme": [
+    "obed"
+  ],
+  "morphClass": [
+    "InfinitiveStem"
+  ],
+  "number": [
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative"
+  ],
+  "pos": [
+    "Verb"
+  ],
+  "tam": [
+    "Imperative",
+    "Imperfect",
+    "Infinitive",
+    "Perfect"
+  ]
+},
+  "lexemes": {
+  "obed": {
+    "pos": "Verb",
+    "lemma": "obed",
+    "gloss": "work"
+  }
+},
+  "pdgmPropOrder": ["pos", "conjClass", "lexeme", "tam", "polarity"],
+  "termclusters": [
+  {
+    "label": "bob-VerbSuffix-obed-ImperativeAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" , "person", "gender", "token"],
+      ["Singular" ,"Person2" ,"Common" ,"óbo"],
+      ["Plural" ,"Person2" ,"Common" ,"ów-d’-a"]
     ]
   },
-  "lexemes": {
-    "obed": {
+  {
+    "label": "bob-VerbSuffix-obed-ImperativeNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "polarity": "Negative",
       "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    }
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘ów-ne"],
+      ["Plural", "Person2" ,"Common" ,"ha-‘ow-náha ~ ha-‘ow-níya"]
+    ]
   },
-  "termclusters": [
-{
-"label": "boni_J-VKijee-balaSuff2AffImperf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "lexeme": "obed",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ow-d’-a"],
- ["Singular", "Person2", "Common", "á-‘ow-t-ta"],
- ["Singular", "Person3", "Masc", "á-‘ow-d-a"],
- ["Singular", "Person3", "Fem", "á-‘ow-t-ta"],
- ["Plural", "Person1", "Common", "á-‘ow-na"],
- ["Plural", "Person2", "Common", "á-‘ow-t-ti"],
- ["Plural", "Person3", "Common", "á-‘ow-d-i"]]
-},
-{
-"label": "boni_J-VKijee-balaSuff2AffImprtv-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "gender": "Common",
- "lexeme": "obed",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["ów-d’-a"]]
-},
-{
-"label": "boni_J-VKijee-balaSuff2AffPerf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "lexeme": "obed",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ow-d’-ə"],
- ["Singular", "Person2", "Common", "á-‘ow-t-tə"],
- ["Singular", "Person3", "Masc", "á-‘ow-d-ə"],
- ["Singular", "Person3", "Fem", "á-‘ow-t-tə"],
- ["Plural", "Person1", "Common", "á-‘ow-nə"],
- ["Plural", "Person2", "Common", "á-‘ow-t-te"],
- ["Plural", "Person3", "Common", "á-‘ow-d-e"]]
-},
-{
-"label": "boni_J-VKijee-balaSuff2Infinitive-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "gender": "Common",
- "lexeme": "obed",
- "pos": "Verb",
- "tam": "Infinitive",
- "vmorphClass": "InfinitiveStem"},
-"terms":  
-[["token"], ["ow-d’-ó(w)"]]
-},
-{
-"label": "boni_J-VKijee-balaSuff2NegImperf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "lexeme": "obed",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘ow-d’-o"],
- ["Singular", "Person2", "Common", "húú-‘ow-t-to"],
- ["Singular", "Person3", "Masc", "húú-‘ow-d-o"],
- ["Singular", "Person3", "Fem", "húú-‘ow’t-to"],
- ["Plural", "Person1", "Common", "húú-‘ow-no"],
- ["Plural", "Person2", "Common", "húú-‘ow-t-ti"],
- ["Plural", "Person3", "Common", "húú-‘ow-d-i"]]
-},
-{
-"label": "boni_J-VKijee-balaSuff2NegImprtv-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "gender": "Common",
- "lexeme": "obed",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘ów-ne"], ["Plural", "ha-‘ow-náha ~ ha-‘ow-níya"]]
-},
-{
-"label": "boni_J-VKijee-balaSuff2NegPerf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix",
- "conjSubClass": "S_2",
- "lexeme": "obed",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an húú-‘ow-ne"],
- ["Singular", "Person2", "Common", "ad húú-‘ow-ne"],
- ["Singular", "Person3", "Masc", "us húú-‘ow-ne"],
- ["Singular", "Person3", "Fem", "ii húú-‘ow-ne"],
- ["Plural", "Person1", "Common", "un húú-‘ow-ne"],
- ["Plural", "Person2", "Common", "ado húú-‘ow-ne"],
- ["Plural", "Person3", "Common", "iyo húú-‘ow-ne"]]
-},
-{
-"label": "Pronominal_Paradigms_to_be_added",
-"note": "H82s",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "To_be_added"},
-"terms":  
-[["token"], ["not attested"]]
-}]
-}
+  {
+    "label": "bob-VerbSuffix-obed-ImperfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ow-d’-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-‘ow-t-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-‘ow-d-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-‘ow-t-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-‘ow-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-‘ow-t-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-‘ow-d-i"]
+    ]
+  },
+  {
+    "label": "bob-VerbSuffix-obed-ImperfectNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘ow-d’-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-‘ow-t-to"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-‘ow-d-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-‘ow’t-to"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-‘ow-no"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-‘ow-t-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-‘ow-d-i"]
+    ]
+  },
+  {
+    "label": "bob-VerbSuffix-obed-Infinitive",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "morphClass": "InfinitiveStem"
+    },
+    "terms": [
+      ["token"],
+      ["ow-d’-ó(w)"]
+    ]
+  },
+  {
+    "label": "bob-VerbSuffix-obed-PerfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ow-d’-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-‘ow-t-tə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-‘ow-d-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-‘ow-t-tə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-‘ow-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-‘ow-t-te"],
+      ["Plural" ,"Person3" ,"Common" ,"á-‘ow-d-e"]
+    ]
+  },
+  {
+    "label": "bob-VerbSuffix-obed-PerfectNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix",
+      "conjSubClass": "S_2",
+      "lexeme": "obed",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an húú-‘ow-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad húú-‘ow-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us húú-‘ow-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii húú-‘ow-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un húú-‘ow-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado húú-‘ow-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo húú-‘ow-ne"]
+    ]
+  }
+]}
