@@ -1,9 +1,22 @@
 {
   "lang": "boni-kijee-bala",
-  "subfamily": "Lowland East Cushitic Omo-Tana",
+  "subfamily": "cushitic east lowland omo-tana",
   "lgpref": "bob",
-  "datasource": "Heine, Bernd. 1982. Boni Dialects. The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya, vol. 10. Berlin: Dietrich Reimer Verlag. [H82]",
-  "datasourceNotes": "We give here only the forms for the verb 'obed' where  Heine notes a contrast with boni-jara",
+  "datasource": "Heine, Bernd. 1982. Boni Dialects. The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya, vol. 10. Berlin: Dietrich Reimer Verlag, pp. 40-41 [H82]",
+  "datasourceNotes": "The six paradigms here, involving the verb 'ob-əd' 'seize' involves an alternative of Conjugation II, reflecting essei=entially dialect differences: (1) is largely confined to speakers of the Jara section, whereas (2) appears to be characteristic of both the Kijee and Bala sections'.[BH82p40]",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "note": "In boni-jara and boni-kilii, owels are divided into two sets, lax ('i e a o u') and tense ('𝓲́ 𝓮 𝓪 𝓸 𝓾') governed by 'an elaborate system of vowel harmony', according to which 'lax vowels are replaced by tense vowels if either the root vowels or those of a dominant suffix are tense. It is not certaain that this phenomenon is recorded in boni-kijee-bala.' [tense vowels are represented here by UU 1D4EA etc.; schwa by UU 025A]",
+      "inventory": "i; i e; e a; a o o; u u; i;i; ii e;e; ee a;a; aa oo o;o; uu u;u;"},
+    "Prosody": {
+      "Type": "tone",
+      "Tone": "'v́(v)' High; 'v(v)' Low [unmarked except in long vowel High-Low tonal sequence 'v́v̀'; or inherent property of grammatical unit] "}}, 
   "geodemoURL": "http://www.ethnologue.com/language/bob",
   "geodemoTXT": "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine.",
   "schemata": {
@@ -58,7 +71,7 @@
   "termclusters": [
   {
     "label": "bob-VerbSuffix-obed-ImperativeAffirmative",
-    "note": "H82s",
+    "note": "BH82p42",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",
@@ -68,14 +81,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" , "person", "gender", "token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"óbo"],
       ["Plural" ,"Person2" ,"Common" ,"ów-d’-a"]
     ]
   },
   {
     "label": "bob-VerbSuffix-obed-ImperativeNegative",
-    "note": "H82s",
+    "note": "BH82p42",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",
@@ -85,14 +98,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number", "person", "gender", "token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"ha-‘ów-ne"],
-      ["Plural", "Person2" ,"Common" ,"ha-‘ow-náha ~ ha-‘ow-níya"]
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘ow-náha ~ ha-‘ow-níya"]
     ]
   },
   {
     "label": "bob-VerbSuffix-obed-ImperfectAffirmative",
-    "note": "H82s",
+    "note": "BH82p41",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",
@@ -114,7 +127,7 @@
   },
   {
     "label": "bob-VerbSuffix-obed-ImperfectNegative",
-    "note": "H82s",
+    "note": "BH82p42",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",
@@ -136,7 +149,7 @@
   },
   {
     "label": "bob-VerbSuffix-obed-Infinitive",
-    "note": "H82s",
+    "note": "BH82p42",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",
@@ -152,7 +165,7 @@
   },
   {
     "label": "bob-VerbSuffix-obed-PerfectAffirmative",
-    "note": "H82s",
+    "note": "BH82p42",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",
@@ -174,7 +187,7 @@
   },
   {
     "label": "bob-VerbSuffix-obed-PerfectNegative",
-    "note": "H82s",
+    "note": "BH82p42",
     "common": {
       "conjClass": "Suffix",
       "conjSubClass": "S_2",

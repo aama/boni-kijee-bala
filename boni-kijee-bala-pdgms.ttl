@@ -14,9 +14,9 @@
 
 aama:Boni-kijee-bala a aamas:Language.
 aama:Boni-kijee-bala rdfs:label "Boni-kijee-bala" .
-aama:Boni-kijee-bala aamas:subfamily "Lowland East Cushitic Omo-Tana" .
+aama:Boni-kijee-bala aamas:subfamily "cushitic east lowland omo-tana" .
 aama:Boni-kijee-bala aamas:lpref "bob" .
-aama:Boni-kijee-bala aamas:dataSource "Heine, Bernd. 1982. Boni Dialects. The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya, vol. 10. Berlin: Dietrich Reimer Verlag. [H82]" .
+aama:Boni-kijee-bala aamas:dataSource "Heine, Bernd. 1982. Boni Dialects. The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya, vol. 10. Berlin: Dietrich Reimer Verlag, pp. 40-41 [H82]" .
 aama:Boni-kijee-bala aamas:geodemoURL "http://www.ethnologue.com/language/bob" .
 aama:Boni-kijee-bala aamas:geodemoTxt "Kijee and Bala are varieties of North-Central Boni. Variant forms from Kijee/Bala which contrast with Kilii and Jara are occasionally noted by Heine." .
 
@@ -196,10 +196,10 @@ bob:lex-obed a aamas:Lexeme ;
 bob:bob-VerbSuffix-obed-ImperativeAffirmative a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-ImperativeAffirmative" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p42" 
 	.
 
-aama:IDa1be8b88-2ca5-4dfd-a523-7d4cf0265764 a aamas:Term ;
+aama:ID845e1d3a-0bc3-4bfb-b405-188f2c1db39a a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperativeAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -214,7 +214,7 @@ aama:IDa1be8b88-2ca5-4dfd-a523-7d4cf0265764 a aamas:Term ;
 	bob:token "óbo" ;
 	.
 
-aama:ID37e5e400-1289-4afa-aedc-fed195259e4d a aamas:Term ;
+aama:IDc5020c9c-5ce2-4b30-a320-ae9728b74a61 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperativeAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -234,10 +234,10 @@ aama:ID37e5e400-1289-4afa-aedc-fed195259e4d a aamas:Term ;
 bob:bob-VerbSuffix-obed-ImperativeNegative a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-ImperativeNegative" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p42" 
 	.
 
-aama:IDc6f01d54-2b7a-4d3c-a5c5-cd12b8a50cdb a aamas:Term ;
+aama:ID51b382c6-63ba-4459-a15a-e493d4c243ef a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperativeNegative ;
 	bob:conjClass bob:Suffix ;
@@ -252,7 +252,7 @@ aama:IDc6f01d54-2b7a-4d3c-a5c5-cd12b8a50cdb a aamas:Term ;
 	bob:token "ha-‘ów-ne" ;
 	.
 
-aama:IDda160608-b8e2-478e-8d6d-02bea580e7c0 a aamas:Term ;
+aama:IDefbfb920-feac-4760-a3ad-bb9b49805f89 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperativeNegative ;
 	bob:conjClass bob:Suffix ;
@@ -272,10 +272,10 @@ aama:IDda160608-b8e2-478e-8d6d-02bea580e7c0 a aamas:Term ;
 bob:bob-VerbSuffix-obed-ImperfectAffirmative a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-ImperfectAffirmative" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p41" 
 	.
 
-aama:IDec3b6307-3aec-4ba4-bde3-5888a0d1e114 a aamas:Term ;
+aama:IDf7e3b5c2-9a2c-4ffc-ba24-12142a123fa6 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -290,7 +290,7 @@ aama:IDec3b6307-3aec-4ba4-bde3-5888a0d1e114 a aamas:Term ;
 	bob:token "á-‘ow-d’-a" ;
 	.
 
-aama:ID1a67d2b6-5086-4a8f-bc68-6d0351644ba1 a aamas:Term ;
+aama:IDa6eff123-4a65-4fbc-8738-4d7741eeb563 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -305,7 +305,7 @@ aama:ID1a67d2b6-5086-4a8f-bc68-6d0351644ba1 a aamas:Term ;
 	bob:token "á-‘ow-t-ta" ;
 	.
 
-aama:ID985686b7-9f42-4f14-b963-ad14c8fa6641 a aamas:Term ;
+aama:ID2d0d50dd-3f6a-4d77-a803-b1a586ff6dc7 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -320,7 +320,7 @@ aama:ID985686b7-9f42-4f14-b963-ad14c8fa6641 a aamas:Term ;
 	bob:token "á-‘ow-d-a" ;
 	.
 
-aama:ID4f0bca91-c701-423b-85d5-51b46409e36e a aamas:Term ;
+aama:IDaa07c72f-3224-4273-a1ec-7c1c3f5acf83 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -335,7 +335,7 @@ aama:ID4f0bca91-c701-423b-85d5-51b46409e36e a aamas:Term ;
 	bob:token "á-‘ow-t-ta" ;
 	.
 
-aama:ID45ac441c-ec95-4b85-98b6-82c5731d8eef a aamas:Term ;
+aama:ID63b5f034-27fc-44e4-a674-b78146eae25a a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -350,7 +350,7 @@ aama:ID45ac441c-ec95-4b85-98b6-82c5731d8eef a aamas:Term ;
 	bob:token "á-‘ow-na" ;
 	.
 
-aama:ID0fb87491-755c-4f3e-a87c-fef5153892ae a aamas:Term ;
+aama:IDfb387b42-9f8b-474f-a3fb-63d93749044c a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -365,7 +365,7 @@ aama:ID0fb87491-755c-4f3e-a87c-fef5153892ae a aamas:Term ;
 	bob:token "á-‘ow-t-ti" ;
 	.
 
-aama:IDb475a229-05da-4411-80ec-c7c0962caea9 a aamas:Term ;
+aama:IDac50bebc-b023-4099-9b27-fa32512f503d a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -385,10 +385,10 @@ aama:IDb475a229-05da-4411-80ec-c7c0962caea9 a aamas:Term ;
 bob:bob-VerbSuffix-obed-ImperfectNegative a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-ImperfectNegative" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p42" 
 	.
 
-aama:ID61863779-ecb5-4ea3-8499-0dbb6e72adb6 a aamas:Term ;
+aama:ID9e6f6db6-31ae-4912-a825-f721cbcd249c a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -403,7 +403,7 @@ aama:ID61863779-ecb5-4ea3-8499-0dbb6e72adb6 a aamas:Term ;
 	bob:token "húú-‘ow-d’-o" ;
 	.
 
-aama:ID2761d8c2-e8f5-4e22-a8e5-2889c8b4386a a aamas:Term ;
+aama:ID32cd6f5f-92cf-4e76-9706-6839cf77204c a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -418,7 +418,7 @@ aama:ID2761d8c2-e8f5-4e22-a8e5-2889c8b4386a a aamas:Term ;
 	bob:token "húú-‘ow-t-to" ;
 	.
 
-aama:IDa3acff54-a86a-407c-b3d2-16b409b8a19a a aamas:Term ;
+aama:ID0f7fecc7-70d9-4722-ade8-5a151b078322 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -433,7 +433,7 @@ aama:IDa3acff54-a86a-407c-b3d2-16b409b8a19a a aamas:Term ;
 	bob:token "húú-‘ow-d-o" ;
 	.
 
-aama:ID01bf84d3-286d-4d80-a13f-4cdece97464d a aamas:Term ;
+aama:ID9ceb3a00-45f7-4ea9-aaf5-8e8f374c4d99 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -448,7 +448,7 @@ aama:ID01bf84d3-286d-4d80-a13f-4cdece97464d a aamas:Term ;
 	bob:token "húú-‘ow’t-to" ;
 	.
 
-aama:IDd90d7c87-c4a0-4be8-821d-b90b2eb3b81d a aamas:Term ;
+aama:IDc6f0c1c0-efd4-4cf8-b834-4855c1bbb0fc a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -463,7 +463,7 @@ aama:IDd90d7c87-c4a0-4be8-821d-b90b2eb3b81d a aamas:Term ;
 	bob:token "húú-‘ow-no" ;
 	.
 
-aama:ID19b9e2d8-aaa9-47e3-8863-ee1e4bddf7cf a aamas:Term ;
+aama:ID82443924-b6fb-49ec-846a-afc44edd4184 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -478,7 +478,7 @@ aama:ID19b9e2d8-aaa9-47e3-8863-ee1e4bddf7cf a aamas:Term ;
 	bob:token "húú-‘ow-t-ti" ;
 	.
 
-aama:ID5bcf399a-e343-454e-a23a-5fa42a6d00ba a aamas:Term ;
+aama:IDb32a7ddd-5600-4d60-951c-184c9796b64d a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-ImperfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -498,10 +498,10 @@ aama:ID5bcf399a-e343-454e-a23a-5fa42a6d00ba a aamas:Term ;
 bob:bob-VerbSuffix-obed-Infinitive a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-Infinitive" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p42" 
 	.
 
-aama:ID5dbcb29b-e839-4463-80c4-8ff41ba0bfe3 a aamas:Term ;
+aama:IDf85e79ed-93eb-46ce-b320-8979c25195ed a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-Infinitive ;
 	bob:conjClass bob:Suffix ;
@@ -518,10 +518,10 @@ aama:ID5dbcb29b-e839-4463-80c4-8ff41ba0bfe3 a aamas:Term ;
 bob:bob-VerbSuffix-obed-PerfectAffirmative a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-PerfectAffirmative" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p42" 
 	.
 
-aama:ID47c5f6fd-be1f-46d3-adda-5d5eb828346c a aamas:Term ;
+aama:IDdb6f9951-12dd-4404-9b82-3c40cdc46d81 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -536,7 +536,7 @@ aama:ID47c5f6fd-be1f-46d3-adda-5d5eb828346c a aamas:Term ;
 	bob:token "á-‘ow-d’-ə" ;
 	.
 
-aama:ID6b423ca7-84d4-4845-bdf6-5d8fe19fde40 a aamas:Term ;
+aama:IDfc68c425-51f4-44bb-b9f6-85249bfdfcf7 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -551,7 +551,7 @@ aama:ID6b423ca7-84d4-4845-bdf6-5d8fe19fde40 a aamas:Term ;
 	bob:token "á-‘ow-t-tə" ;
 	.
 
-aama:ID765f98b5-d1e8-481a-8d55-2e13d406c6f3 a aamas:Term ;
+aama:ID107fd467-e407-4023-838d-07d209fe83f3 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -566,7 +566,7 @@ aama:ID765f98b5-d1e8-481a-8d55-2e13d406c6f3 a aamas:Term ;
 	bob:token "á-‘ow-d-ə" ;
 	.
 
-aama:ID702e4d39-5e29-462f-9fc6-ecd63f3a8059 a aamas:Term ;
+aama:IDe6e4b914-6d73-43e6-b2df-c86b6c2743d3 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -581,7 +581,7 @@ aama:ID702e4d39-5e29-462f-9fc6-ecd63f3a8059 a aamas:Term ;
 	bob:token "á-‘ow-t-tə" ;
 	.
 
-aama:ID3beb2cec-2125-4eb9-988d-9e59737929cb a aamas:Term ;
+aama:IDe6529530-06ec-40a8-971e-23cbd2cece93 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -596,7 +596,7 @@ aama:ID3beb2cec-2125-4eb9-988d-9e59737929cb a aamas:Term ;
 	bob:token "á-‘ow-nə" ;
 	.
 
-aama:IDd2f3e511-03b7-46a2-9dc1-d444a5c04731 a aamas:Term ;
+aama:IDc4d377d9-1cc0-442e-be0b-4fa0b871f48d a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -611,7 +611,7 @@ aama:IDd2f3e511-03b7-46a2-9dc1-d444a5c04731 a aamas:Term ;
 	bob:token "á-‘ow-t-te" ;
 	.
 
-aama:ID098f776b-3147-427d-bff7-833cef5c28c4 a aamas:Term ;
+aama:ID979a61ac-5d83-4211-8b63-49f98aef3125 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectAffirmative ;
 	bob:conjClass bob:Suffix ;
@@ -631,10 +631,10 @@ aama:ID098f776b-3147-427d-bff7-833cef5c28c4 a aamas:Term ;
 bob:bob-VerbSuffix-obed-PerfectNegative a aamas:Termcluster ;
 	rdfs:label "bob-VerbSuffix-obed-PerfectNegative" ;
 	aamas:lang aama:Boni-kijee-bala ;
-	rdfs:comment "H82s" 
+	rdfs:comment "BH82p42" 
 	.
 
-aama:ID776b89a5-7939-4435-9a4c-f301aab4afa5 a aamas:Term ;
+aama:ID1947e088-74ad-47e2-a769-303b6fcc3eaa a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -649,7 +649,7 @@ aama:ID776b89a5-7939-4435-9a4c-f301aab4afa5 a aamas:Term ;
 	bob:token "an húú-‘ow-ne" ;
 	.
 
-aama:ID228addba-7649-4769-bd67-4efedca70442 a aamas:Term ;
+aama:IDf6a49146-3331-48fa-a551-c4d45654694c a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -664,7 +664,7 @@ aama:ID228addba-7649-4769-bd67-4efedca70442 a aamas:Term ;
 	bob:token "ad húú-‘ow-ne" ;
 	.
 
-aama:ID82b7ae12-17ec-4bd7-b632-b5649611a1e2 a aamas:Term ;
+aama:IDef87dbfe-b2af-446d-b90d-fe986647824f a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -679,7 +679,7 @@ aama:ID82b7ae12-17ec-4bd7-b632-b5649611a1e2 a aamas:Term ;
 	bob:token "us húú-‘ow-ne" ;
 	.
 
-aama:ID161871a3-f0f3-4189-a759-2b69fc0457e8 a aamas:Term ;
+aama:IDf0b48ae5-3642-4a92-9c8f-54f24acd86d3 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -694,7 +694,7 @@ aama:ID161871a3-f0f3-4189-a759-2b69fc0457e8 a aamas:Term ;
 	bob:token "ii húú-‘ow-ne" ;
 	.
 
-aama:ID243e4086-32c6-43d9-b2f2-e4a7aabe6f9d a aamas:Term ;
+aama:ID0869a6e9-645a-4f25-ada3-3b53ba9eb23b a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -709,7 +709,7 @@ aama:ID243e4086-32c6-43d9-b2f2-e4a7aabe6f9d a aamas:Term ;
 	bob:token "un húú-‘ow-ne" ;
 	.
 
-aama:IDe7a88bd1-f76e-4a5c-97bc-05a7b16d4a6b a aamas:Term ;
+aama:IDa00e7a63-545d-4247-8f94-51341cd96698 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
@@ -724,7 +724,7 @@ aama:IDe7a88bd1-f76e-4a5c-97bc-05a7b16d4a6b a aamas:Term ;
 	bob:token "ado húú-‘ow-ne" ;
 	.
 
-aama:ID61fb9428-f018-4db2-8f98-ffbe38ce0525 a aamas:Term ;
+aama:IDb8debfd6-67be-42bd-9156-a6b571a71b27 a aamas:Term ;
 	aamas:lang aama:Boni-kijee-bala ;
 	aamas:memberOf bob:bob-VerbSuffix-obed-PerfectNegative ;
 	bob:conjClass bob:Suffix ;
